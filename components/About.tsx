@@ -98,6 +98,32 @@ export default function About() {
           </div>
 
           <div className="pt-6 mt-6 border-t border-zinc-800">
+             <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 font-bold mb-4 block">Language & Localization Experience</span>
+             <ul className="space-y-6">
+               <li className="group">
+                 <div className="flex justify-between items-center mb-2">
+                   <span className="text-sm text-zinc-300">
+                     Dubbing Script Writer <span className="text-zinc-600 mx-2">/</span> <a href="https://www.tanweerstudios.com/" target="_blank" rel="noreferrer" className="text-zinc-400 hover:text-white transition-colors underline decoration-zinc-800 hover:decoration-blue-500 underline-offset-4">Tanweer Studios</a>
+                   </span>
+                 </div>
+                 <p className="text-xs text-zinc-500 leading-relaxed max-w-lg">
+                   Adapted and localized scripts for dubbing, ensuring rigorous linguistic accuracy, precise lip-syncing synchronization, and seamless cultural adaptations for diverse audiences.
+                 </p>
+               </li>
+               <li className="group">
+                 <div className="flex justify-between items-center mb-2">
+                   <span className="text-sm text-zinc-300">
+                     Freelance Translator <span className="text-zinc-600 mx-2">/</span> <span className="text-zinc-400">EN ↔ AR</span>
+                   </span>
+                 </div>
+                 <p className="text-xs text-zinc-500 leading-relaxed max-w-lg">
+                   Translated and localized high-volume video content and technical documents between English and Arabic, maintaining strict narrative flow and contextual integrity.
+                 </p>
+               </li>
+             </ul>
+          </div>
+
+          <div className="pt-6 mt-6 border-t border-zinc-800">
              <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 font-bold mb-4 block">Professional Certifications</span>
              <ul className="space-y-2">
                {CERTIFICATIONS.map((cert, idx) => {

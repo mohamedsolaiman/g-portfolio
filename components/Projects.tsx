@@ -59,6 +59,9 @@ export default function Projects() {
         className="mb-12"
       >
         <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 font-bold mb-6 italic block">Selected Works</span>
+        <p className="text-zinc-400 text-sm max-w-2xl leading-relaxed">
+          A curated selection of my software engineering projects spanning 3D rendering, real-time conversational AI, scalable full-stack architectures, and cross-platform tooling.
+        </p>
       </motion.div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
