@@ -5,11 +5,11 @@ import { motion } from 'motion/react';
 import { ChevronDown, ExternalLink } from 'lucide-react';
 
 const SKILLS = [
-  { category: 'Languages', items: 'JavaScript, TypeScript, Python, HTML/CSS' },
-  { category: 'Frontend', items: 'React, Next.js, Framer Motion, Tailwind' },
-  { category: 'Backend', items: 'Node.js, Django, REST APIs, Automation' },
-  { category: 'Databases', items: 'PostgreSQL, MongoDB, NoSQL' },
-  { category: 'AI & Tools', items: 'Haystack, GitHub Copilot, Git, Docker' },
+  { category: 'Languages', items: 'JavaScript (ES6+), TypeScript, Python, HTML/CSS' },
+  { category: 'Frontend Ecosystem', items: 'React, Next.js, Framer Motion, Tailwind CSS, Three.js' },
+  { category: 'Backend & Data', items: 'Node.js, Django, PostgreSQL, MongoDB, RESTful APIs' },
+  { category: 'AI Tooling & Orchestration', items: 'Google AI Studio, Claude Code, Antigravity, GitHub Copilot' },
+  { category: 'DevOps & Architecture', items: 'Git, Docker, CI/CD Pipelines, System Design' },
   { category: 'Security', items: 'Cybersecurity, Ethical Hacking Principles' }
 ];
 
@@ -82,7 +82,10 @@ export default function About() {
             Hello! My name is Mohamed. My interest in software engineering started when I decided to deeply understand how data moves across systems, which evolved into a focus on building robust, scalable full-stack architectures.
           </p>
           <p>
-            Today, I engineer digital solutions that span from interactive front-end experiences like 3D architectural portfolios to robust back-end systems processing real-time conversational AI. My methodology focuses on accessibility, performance, and continuous learning.
+            Today, I engineer digital solutions that span from interactive front-end experiences like 3D architectural portfolios to robust back-end systems processing real-time conversational AI. My methodology focuses on writing clean, accessible, and high-performance code.
+          </p>
+          <p>
+            To maximize efficiency and maintain a cutting-edge workflow, I professionally leverage advanced AI coding agents and LLM orchestration tools—including Google AI Studio, Claude Code, and Antigravity. Integrating these platforms allows me to rapidly prototype complex architectures, automate iterative tasks, and deliver production-ready systems at an accelerated pace without compromising engineering rigor.
           </p>
           
           <div className="pt-6 mt-6 border-t border-zinc-800">
