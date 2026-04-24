@@ -16,16 +16,16 @@ const SKILLS = [
 const CERTIFICATIONS = [
   { 
     issuer: 'Meta', 
-    title: 'Front-End Developer Professional Certificate',
-    description: 'Mastered responsive web development. Learned to build scalable web applications using React, JavaScript, HTML, CSS, and modern UX/UI principles.',
-    courses: ['Introduction to Front-End Development', 'Programming with JavaScript', 'React Basics', 'Advanced React', 'Front-End Developer Capstone'],
+    title: 'Full Stack Developer Specialization',
+    description: 'Gained comprehensive full-stack expertise, specializing in back-end engineering with Python and secure API design using Django.',
+    courses: ['Programming in Python', 'Introduction to Back-End Development', 'Introduction to Databases', 'Django Web Framework', 'APIs'],
     url: 'https://www.coursera.org/user/0814a52d75ff35a1304959164ac41ee3'
   },
   { 
     issuer: 'Meta', 
-    title: 'Full Stack Developer Specialization',
-    description: 'Gained comprehensive full-stack expertise, specializing in back-end engineering with Python and secure API design using Django.',
-    courses: ['Programming in Python', 'Introduction to Back-End Development', 'Introduction to Databases', 'Django Web Framework', 'APIs'],
+    title: 'Front-End Developer Professional Certificate',
+    description: 'Mastered responsive web development. Learned to build scalable web applications using React, JavaScript, HTML, CSS, and modern UX/UI principles.',
+    courses: ['Introduction to Front-End Development', 'Programming with JavaScript', 'React Basics', 'Advanced React', 'Front-End Developer Capstone'],
     url: 'https://www.coursera.org/user/0814a52d75ff35a1304959164ac41ee3'
   },
   { 

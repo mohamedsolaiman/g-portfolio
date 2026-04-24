@@ -15,6 +15,9 @@ const jetbrainsMono = JetBrains_Mono({
 export const metadata: Metadata = {
   title: 'Mohamed Solaiman | Full-Stack Developer',
   description: 'Portfolio of Mohamed Solaiman, Full-Stack Developer based in Latakia, Syria.',
+  icons: {
+    icon: '/icon.svg',
+  },
 };
 
 export default function RootLayout({children}: {children: React.ReactNode}) {

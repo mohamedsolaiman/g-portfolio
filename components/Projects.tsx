@@ -38,13 +38,6 @@ const FEATURED_PROJECTS = [
     tech: ['TypeScript', 'React', 'Tailwind CSS'],
     github: 'https://github.com/mohamedsolaiman/Zenith-Meditation',
     num: '05'
-  },
-  {
-    title: 'OpenClaw',
-    description: 'Your own personal AI assistant designed to run on any OS and any platform. A versatile open-source tooling solution.',
-    tech: ['Python', 'AI', 'Cross-Platform'],
-    github: 'https://github.com/mohamedsolaiman/openclaw',
-    num: '06'
   }
 ];
 
