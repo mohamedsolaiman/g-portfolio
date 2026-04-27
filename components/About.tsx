@@ -8,7 +8,7 @@ const SKILLS = [
   { category: 'Languages', items: 'JavaScript (ES6+), TypeScript, Python, HTML/CSS' },
   { category: 'Frontend Ecosystem', items: 'React, Next.js, Framer Motion, Tailwind CSS, Three.js' },
   { category: 'Backend & Data', items: 'Node.js, Django, PostgreSQL, MongoDB, RESTful APIs' },
-  { category: 'AI Tooling & Orchestration', items: 'Google AI Studio, Claude Code, Antigravity, GitHub Copilot' },
+  { category: 'Testing & Quality', items: 'Jest, Pytest, Cypress, ESLint, CI Testing' },
   { category: 'DevOps & Architecture', items: 'Git, Docker, CI/CD Pipelines, System Design' },
   { category: 'Security', items: 'Cybersecurity, Ethical Hacking Principles' }
 ];
@@ -82,10 +82,10 @@ export default function About() {
             Hello! My name is Mohamed. My interest in software engineering started when I decided to deeply understand how data moves across systems, which evolved into a focus on building robust, scalable full-stack architectures.
           </p>
           <p>
-            Today, I engineer digital solutions that span from interactive front-end experiences like 3D architectural portfolios to robust back-end systems processing real-time conversational AI. My methodology focuses on writing clean, accessible, and high-performance code.
+            Today, I engineer digital solutions that span from interactive front-end experiences like 3D architectural portfolios to robust back-end systems handling real-time data processing and secure API integrations. My methodology focuses on writing clean, accessible, and high-performance code.
           </p>
           <p>
-            To maximize efficiency and maintain a cutting-edge workflow, I professionally leverage advanced AI coding agents and LLM orchestration tools—including Google AI Studio, Claude Code, and Antigravity. Integrating these platforms allows me to rapidly prototype complex architectures, automate iterative tasks, and deliver production-ready systems at an accelerated pace without compromising engineering rigor.
+            I'm passionate about continuous learning and currently deepening my expertise in cybersecurity and system architecture. I approach every project with a focus on scalability, security best practices, and clean code principles—building systems that are not just functional, but resilient and maintainable for the long term.
           </p>
           
           <div className="pt-6 mt-6 border-t border-zinc-800">
