@@ -5,39 +5,46 @@ import { ExternalLink, Github, Folder } from 'lucide-react';
 
 const FEATURED_PROJECTS = [
   {
-    title: 'LingoBuddy',
-    description: 'A real-time conversational AI language learning partner. Engages users in immersive language learning experiences using AI.',
-    tech: ['TypeScript', 'Next.js', 'AI', 'Tailwind'],
-    github: 'https://github.com/mohamedsolaiman/LingoBuddy',
+    title: 'AI Content Beast',
+    description: 'Autonomous AI marketing agent that generates content, monitors YouTube trends, and posts to 6 platforms with auto-replies.',
+    tech: ['Python', 'AI / ML', 'Automation'],
+    github: 'https://github.com/mohamedsolaiman/ai-content-beast',
     num: '01'
   },
   {
-    title: 'StudyHub',
-    description: 'A full-stack Next.js application where users can create, manage, and share learning content securely with a community of learners.',
-    tech: ['Next.js', 'React', 'TypeScript', 'Full-stack'],
-    github: 'https://github.com/mohamedsolaiman/StudyHub',
+    title: 'SOC Shield',
+    description: 'A comprehensive all-in-one CLI tool designed for SOC Analysts to automate security workflows and enhance blue team operations.',
+    tech: ['Python', 'Cybersecurity', 'CLI'],
+    github: 'https://github.com/mohamedsolaiman/socshield',
     num: '02'
   },
   {
-    title: 'Architectural Portfolio',
-    description: 'A 3D interactive and aesthetic portfolio designed for an architect, utilizing advanced rendering techniques on the web.',
-    tech: ['TypeScript', 'Three.js', 'React 3D', 'Tailwind CSS'],
-    github: 'https://github.com/mohamedsolaiman/Architectural-Portfolio',
+    title: 'TastyGo',
+    description: 'A responsive food ordering mobile app integrated with Appwrite backend for seamless authentication and real-time database management.',
+    tech: ['TypeScript', 'React Native', 'Appwrite'],
+    github: 'https://github.com/mohamedsolaiman/tastygo',
     num: '03'
   },
   {
-    title: 'The Living Portfolio',
-    description: 'A dynamic, highly interactive portfolio designed for a senior React developer, highlighting dynamic DOM transitions and creative UI flow.',
-    tech: ['React', 'TypeScript', 'Framer Motion'],
-    github: 'https://github.com/mohamedsolaiman/The-Living-Portfolio',
+    title: 'SubTrackr API',
+    description: 'A robust RESTful API built for tracking user subscriptions, featuring secure authentication, data validation, and optimized endpoints.',
+    tech: ['Node.js', 'Express', 'JavaScript', 'REST API'],
+    github: 'https://github.com/mohamedsolaiman/subtrackr-api',
     num: '04'
   },
   {
-    title: 'Zenith Meditation',
-    description: 'A calming, user-centric meditation companion application focusing on immersive audio and serene visuals.',
-    tech: ['TypeScript', 'React', 'Tailwind CSS'],
-    github: 'https://github.com/mohamedsolaiman/Zenith-Meditation',
+    title: 'CyberWatch Toolkit',
+    description: 'An advanced security investigation and OSINT toolkit providing deep data harvesting and reconnaissance capabilities.',
+    tech: ['Python', 'OSINT', 'Cybersecurity'],
+    github: 'https://github.com/mohamedsolaiman/cyberwatch-toolkit',
     num: '05'
+  },
+  {
+    title: 'CyberScout',
+    description: 'A powerful OSINT tool capable of discovering social media profiles and digital footprints across more than 300 platforms.',
+    tech: ['Python', 'OSINT', 'Data Scraping'],
+    github: 'https://github.com/mohamedsolaiman/cyberscout',
+    num: '06'
   }
 ];
 
@@ -53,7 +60,7 @@ export default function Projects() {
       >
         <span className="text-[10px] uppercase tracking-[0.2em] text-zinc-500 font-bold mb-6 italic block">Selected Works</span>
         <p className="text-zinc-400 text-sm max-w-2xl leading-relaxed">
-          A curated selection of my software engineering projects spanning 3D rendering, real-time conversational AI, scalable full-stack architectures, and cross-platform tooling.
+          A curated selection of my software engineering projects spanning autonomous AI agents, cybersecurity tools, scalable APIs, and cross-platform mobile development.
         </p>
       </motion.div>
 
